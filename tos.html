@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<!-- Mirrored from spirthack.me/tos by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Sep 2019 14:57:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="msapplication-TileColor" content="#4E00AD">
+<meta name="theme-color" content="#4E00AD">
+<title>SpirtHack :: Условия использования</title>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9" type="9c76c5564500fbecfb06a339-text/javascript"></script>
+<link href="static/assets/css/vendors.css" rel="stylesheet"><link href="static/assets/css/app5e1f.css?v=2" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="static/assets/favicon/apple-touch-iconcd51.png?v=lk26AOBGr8">
+<link rel="icon" type="image/png" sizes="32x32" href="static/assets/favicon/favicon-32x32cd51.png?v=lk26AOBGr8">
+<link rel="icon" type="image/png" sizes="16x16" href="static/assets/favicon/favicon-16x16cd51.png?v=lk26AOBGr8">
+<link rel="manifest" href="static/assets/favicon/site9f3a.webmanifest?v=lk26AOBGr5">
+<link rel="mask-icon" href="static/assets/favicon/safari-pinned-taba96d.svg?v=lk26AOBGg8" color="#5bbad5">
+<link rel="shortcut icon" href="static/assets/favicon/favicon9f3a.ico?v=lk26AOBGr5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<div class="landscape">
+<div class="landscape_logo"></div>
+<div class="landscape_text">Turn the device into portrait mode</div>
+<div class="banana">
+<img src="static/assets/img/Banana2b2a.gif?8b40278ee83ce37822cbdf1805851ce0" alt="Dancing Banana">
+</div>
+</div>
+<div class="popup_fade"></div>
+<script src='../www.google.com/recaptcha/api9acb.js?onload=captchaCallBack&amp;render=explicit' type="9c76c5564500fbecfb06a339-text/javascript"></script>
+<script type="9c76c5564500fbecfb06a339-text/javascript">
+            var auth_captcha;
+            var reg_captcha;
+            var forgot_captcha;
+            var captchaCallBack = function() {
+                auth_captcha = grecaptcha.render('auth-captcha', {
+                    'sitekey' : '6LfltkAUAAAAAIYhSuMgm33hCMmhtkuj4iLOzaxn',
+                    'theme' : 'light'
+                });
+
+                reg_captcha = grecaptcha.render('reg-captcha', {
+                    'sitekey' : '6LfltkAUAAAAAIYhSuMgm33hCMmhtkuj4iLOzaxn',
+                    'theme' : 'light'
+                });
+
+                forgot_captcha = grecaptcha.render('forgot-captcha', {
+                    'sitekey' : '6LfltkAUAAAAAIYhSuMgm33hCMmhtkuj4iLOzaxn',
+                    'theme' : 'light'
+                });
+            };
+    </script>
+<div class="popup" id="reg">
+<div class="block widthPopUp">
+<div class="close">
+<a id="close" href="#"><i class="fas fa-times-circle"></i></a>
+</div>
+<form method="post" action="https://spirthack.me/doregister" class="userform">
+<div class="container flex-cont">
+<div class="logo">
+<a href="index.html">
+<img src="static/assets/img/logo5440.png?0186d716f4ccbb5a9f2cade71695c3f1" alt="logo">
+</a>
+</div>
+<div class="status"></div>
+<div class="input">
+<input type="text" placeholder="Логин" name="login" required>
+</div>
+<div class="input">
+<input type="password" placeholder="Пароль" name="password" required>
+</div>
+<div class="input">
+<input type="email" placeholder="Электронная почта" name="email" required>
+</div>
+<div class="capcha"><div id="reg-captcha"></div></div>
+<div class="check">
+<input type="checkbox" name="yes" id="yesCheck" required>
+<label for="yesCheck">Я согласен с <a href="tos.html">условиями использования</a></label>
+</div>
+<button class="btn">Зарегистрироваться</button>
+</div>
+</form>
+</div>
+</div>
+<div class="popup" id="log">
+<div class="block widthPopUp">
+<div class="close">
+<a id="close" href="#"><i class="fas fa-times-circle"></i></a>
+</div>
+<form method="post" action="https://spirthack.me/login" class="userform">
+<div class="container flex-cont">
+<div class="logo">
+<a href="index.html">
+<img src="static/assets/img/logo5440.png?0186d716f4ccbb5a9f2cade71695c3f1" alt="logo">
+</a>
+</div>
+<div class="status"></div>
+<div class="input">
+<input type="text" placeholder="Логин" name="login" required>
+</div>
+<div class="input">
+<input type="password" placeholder="Пароль" name="password" required>
+</div>
+<div class="capcha"><div id="auth-captcha"></div></div>
+<button class="btn">Вход</button>
+<div class="some_text">
+<a href="#respassw" class="to-popup">Забыли пароль?</a>
+<a href="#reg" class="to-popup">Всё ещё нет аккаунта? <span>Регистрация</span></a>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="popup" id="respassw">
+<div class="block widthPopUp">
+<div class="close">
+<a id="close" href="#"><i class="fas fa-times-circle"></i></a>
+</div>
+<form method="post" action="https://spirthack.me/resetpassw" class="userform">
+<div class="container flex-cont">
+<div class="logo">
+<a href="index.html">
+<img src="static/assets/img/logo5440.png?0186d716f4ccbb5a9f2cade71695c3f1" alt="logo">
+</a>
+</div>
+<div class="status"></div>
+<div class="input">
+<input type="email" placeholder="Электронная почта" name="email" required>
+</div>
+<div class="capcha"><div id="forgot-captcha"></div></div>
+<button class="btn">Отправить</button>
+</div>
+</form>
+</div>
+</div>
+<nav class="menu">
+<div class="logo">
+<a href="index.html"><img src="static/assets/img/logo5440.png?0186d716f4ccbb5a9f2cade71695c3f1" alt="logo"></a>
+</div>
+<div class="menu__container">
+<div class="links">
+<div class="links__item menu_main"><a href="index.html">Главная</a></div>
+<div class="links__item menu_forum"><a href="forum.html">Форум</a></div>
+<div class="links__item menu_help"><a href="help.html">Помощь</a></div>
+</div>
+<div class="panel">
+<div class="lang">
+<a href="#" class="lang-active" data-lang="ru">RU</a>
+<a href="#" class="" data-lang="en">ENG</a>
+</div>
+<div class="logout">
+<div class="reg">
+<a href="#reg" class="to-popup">
+<div class="reg__ico"><img src="static/assets/img/_ionicons_svg_md-person-addd1b4.svg?fedce9ea524f7b9bde9950b741018a9a" alt=""></div>
+<div class="reg__text">Регистрация</div>
+</a>
+</div>
+<div class="enter">
+<a href="#log" class="to-popup">
+<div class="reg__ico"><img src="static/assets/img/_ionicons_svg_md-log-in1300.svg?4691ce41a840ae51e4f070653c02428d" alt=""></div>
+<div class="reg__text">Вход</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="mobile-menu">
+<a href="#" class="mobile-menu__btn">
+<span></span>
+</a>
+</div>
+</nav>
+<script type="9c76c5564500fbecfb06a339-text/javascript">
+document.addEventListener('DOMContentLoaded', function(){
+    let elems = document.getElementsByClassName("menu_tos");
+
+    for(let i = 0; i < elems.length; i++)
+    {
+        elems.item(i).classList.add("links__item-active");
+    }
+});
+</script>
+<div class="container mt">
+<h2 class="title">Условия использования</h2>
+<div class="text">
+<ol>
+<li>Запрещается декомпилировать, взламывать, патчить, отлаживать или использовать другие методы обратного инженеринга наших продуктов.</li>
+<li>Запрещается использовать материалы сайта/продукта в коммерческих целях.</li>
+<li>Запрещается использовать наши продукты, если Вы(непосредственно или косвенно) связаны с разработкой античитов.</li>
+<li>Запрещается передавать данные для входа в аккаунт третьим лицам.</li>
+<li>Информация в Вашем профиле должна соответствовать действительности.</li>
+<li>Вы можете использовать только средства оплаты, принадлежащие Вам.</li>
+<li>Администрация не несет ответственности за внутриигровые блокировки. Продукты используются на Ваш страх и риск.</li>
+<li>Администрация имеет право заблокировать подписку в случае нарушения правил настоящего соглашения.</li>
+</ol>
+<br>
+<h2 class="title">Отказ от ответственности</h2>
+Информация, размещенная на этом веб-сайте представлена по принципу "как есть", т.е. без каких-либо гарантий.<br>
+Ни при каких обстоятельствах администрация не несёт ответственности за какой-либо прямой, непрямой, особый или иной косвенный ущерб, в том числе различные баны и блокировки, возникшие в связи с доступом, использованием или невозможностью использования сайта, его содержимого или какого-либо связанного интернет-сайта, или неработоспособностью, ошибкой, упущением, перебоем, дефектом, простоем в работе или задержкой в передаче, компьютерным вирусом или системным сбоем, даже если администрация будет явно поставлена в известность о возможности такого ущерба.
+<br><br>
+<h2 class="title">Политика возвратов</h2>
+Спасибо за покупку в Spirthack.me.<br><br>
+Все продажи являются финальными и возвраты не осуществляются, но на усмотрение администрации может быть сделано исключение.<br>
+Если продукт не работает на Вашей системе вследствие нашей ошибки, вы можете обратиться в поддержку и получить возврат.<br>
+Если Ваш антивирус (или какая-либо другая программа) блокирует чит, компьютер заражён вирусами, сломан и пр., возврат не осуществляется.
+<br><br>
+<h2 class="title">Политика конфиденциальности</h2>
+Настоящая Политика конфиденциальности регулирует порядок, в котором Spirthack собирает, использует и хранит информацию, полученную от пользователей.<br>
+Действуя свободно, своей волей и в своем интересе, а также подтверждая свою дееспособность, Пользователь дает свое согласие на обработку своих персональных данных.<br>
+<br>
+Какую информацию мы храним:<br>
+- Имя пользователя;<br>
+- Эл. адрес;<br>
+- IP;<br>
+- Язык браузера, ОС;<br>
+- Ваши уникальные идентификаторы ПК.<br><br>
+Персональные данные не являются общедоступными и не могут быть доступны третьим лицам.<br><br>
+Основой для обработки персональных данных являются: ст. 24 Конституции Российской Федерации; Статья 6 Федерального закона № 152-ФЗ «О персональных данных».<br>
+При обработке персональных данных будут выполнены следующие действия: сбор; запись; систематизация; накопление; хранение; уточнение (обновление, изменение); извлечение; использование; блокирование; удаление; уничтожение.<br>
+Обработка персональных данных может быть прекращена по запросу субъекта персональных данных. Хранение персональных данных, зафиксированных на бумажных носителях осуществляется согласно Федеральному закону №125-ФЗ «Об архивном деле в Российской Федерации» и иным нормативно правовым актам в области архивного дела и архивного хранения.<br>
+Согласие может быть отозвано субъектом персональных данных или его представителем путем направления обращения на электронный адрес <a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="553431383c3b1526253c27213d34363e7b38307b">[email&#160;protected]</a><br>
+Настоящее согласие действует все время до момента прекращения обработки персональных данных.<br>
+<br><br>
+<span class="updated">Обновлено 02.08.2019.</span>
+</div>
+</div>
+<section class="footer">
+<div class="footer__line"></div>
+<div class="footer__menu">
+<div class="links">
+<div class="links__item menu_main"><a href="index.html">Главная</a></div>
+<div class="links__item menu_contacts"><a href="contacts.html">Контакты</a></div>
+<div class="links__item menu_help"><a href="help.html">Помощь</a></div>
+<div class="links__item menu_tos"><a href="tos.html">Условия</a></div>
+</div>
+</div>
+<div class="footer__copyright">
+© 2018-2019 Все права защищены, Spirthack
+</div>
+</section>
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="9c76c5564500fbecfb06a339-text/javascript" src="static/assets/js/vendors7b30.js?v=4"></script><script type="9c76c5564500fbecfb06a339-text/javascript" src="static/assets/js/app7b30.js?v=4"></script><script src="../ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="9c76c5564500fbecfb06a339-|49" defer=""></script></body>
+
+<!-- Mirrored from spirthack.me/tos by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Sep 2019 14:57:04 GMT -->
+</html>
